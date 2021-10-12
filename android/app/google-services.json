@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "718410708058",
+    "project_id": "lfyd-assignment-be1bb",
+    "storage_bucket": "lfyd-assignment-be1bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718410708058:android:eb7ca157309eb196fd5463",
+        "android_client_info": {
+          "package_name": "com.lfydassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718410708058-cck6h73d8uf1f3an75r690iimn0ta8u2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lfydassignment",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "718410708058-2e43peodtqvuhnah4godfjjkgj7q8gs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8b7Ntv4WAWyUJPUPsa_2Z1XM3E7DMXEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718410708058-2e43peodtqvuhnah4godfjjkgj7q8gs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

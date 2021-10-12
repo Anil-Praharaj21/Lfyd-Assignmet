@@ -1,0 +1,160 @@
+import {StyleSheet} from 'react-native';
+import {Colors} from './color';
+import {Dimens} from './dimes';
+import {Strings} from './string';
+
+export const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    justifyContent: Strings.center,
+    alignItems: Strings.center,
+    backgroundColor: Colors.colorPrimary,
+  },
+  splashIcon: {
+    resizeMode: Strings.center,
+    height: 200,
+  },
+  loginAppIcon: {
+    resizeMode: Strings.center,
+    width: '20%',
+    height: '20%',
+    alignSelf: Strings.center,
+    marginTop: -50,
+  },
+  loginBackground: {
+    backgroundColor: Colors.colorPrimary,
+    flex: 1,
+  },
+  subIcon: {
+    resizeMode: Strings.center,
+    padding: 8,
+    width: '100%',
+    height: '50%',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: Strings.bold,
+    color: Colors.colorSecondary,
+    alignSelf: Strings.center,
+  },
+  subTitle: {
+    fontSize: 16,
+    color: Colors.colorSecondary,
+    alignSelf: Strings.center,
+    textAlign: Strings.center,
+    margin: 16,
+  },
+  indicator: {
+    alignSelf: Strings.center,
+    margin: 16,
+    flexDirection: 'row',
+  },
+  dot: {
+    borderRadius: 5,
+    width: 8,
+    height: 8,
+    backgroundColor: Colors.colorSecondary,
+    margin: 4,
+  },
+  indicatorLine: {
+    borderRadius: 5,
+    width: 30,
+    height: 8,
+    backgroundColor: Colors.colorSecondary,
+    margin: 4,
+  },
+  buttonStyle: {
+    margin: 16,
+    borderRadius: 8,
+  },
+  buttonLable: {
+    fontWeight: Strings.bold,
+    padding: 8,
+  },
+  modal: {
+    position: Strings.absolute,
+    bottom: 0,
+    elevation: 8,
+    width: '100%',
+  },
+  modalCard: {
+    flex: 1,
+    backgroundColor: Colors.colorSecondary,
+    borderTopRightRadius: 16,
+    borderTopLeftRadius: 16,
+  },
+  modalUpperBar: {
+    borderRadius: 5,
+    width: 36,
+    height: 6,
+    backgroundColor: Colors.colorSecondaryVariant,
+    margin: Dimens.margin,
+    alignSelf: Strings.center,
+  },
+  modalTitle: {
+    flex: 1,
+    fontWeight: Strings.bold,
+    fontSize: Dimens.textSizeH6,
+    margin: Dimens.margin16,
+    color: Colors.colorOnPrimary,
+  },
+  phoneNumberSubText: {
+    flex: 1,
+    fontSize: Dimens.subTitle2,
+    textAlign: 'justify',
+    marginLeft: Dimens.margin16,
+    marginRight: Dimens.margin16,
+    color: Colors.colorOnPrimary,
+  },
+  rowFlex: {
+    flexDirection: 'row',
+    margin: Dimens.margin16,
+    padding: Dimens.padding,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: Colors.colorSecondaryVariant,
+  },
+  circularParent: {
+    height: 25,
+    width: 25,
+    borderRadius: 30,
+    overflow: 'hidden',
+    alignItems: 'center',
+    marginLeft: Dimens.margin,
+  },
+  indiaFlag: {
+    resizeMode: 'center',
+    height: 40,
+    width: 40,
+    marginTop: -7,
+    alignSelf: 'center',
+  },
+  indiaText: {
+    fontSize: Dimens.subTitle2,
+    textAlignVertical: 'center',
+    marginLeft: Dimens.margin16,
+    marginRight: Dimens.margin,
+    color: Colors.colorOnPrimary,
+  },
+  deviderHorizontal: {
+    height: '100%',
+    width: 1,
+    backgroundColor: Colors.colorSecondaryVariant,
+  },
+  subTextCode: {
+    fontSize: Dimens.subTitle2,
+    textAlignVertical: 'center',
+    marginLeft: Dimens.margin16,
+    marginRight: Dimens.margin,
+    color: Colors.colorOnPrimary,
+  },
+  mobileText: {
+    borderRadius: 8,
+    marginLeft: Dimens.margin16,
+    marginRight: Dimens.margin16,
+    backgroundColor: Colors.textInputBackground,
+    paddingLeft: 16,
+    paddingRight: 16,
+    color: Colors.colorOnPrimary,
+  },
+});
